@@ -1,0 +1,271 @@
+/***********************/
+/* Achtergrond Cirkels */
+/***********************/
+
+.circle-gradients figure {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+.circle-1 {
+    height: 250px;
+    width: 250px;
+    top: -4em;
+    left: -4em;
+    z-index: -1;
+}
+
+.circle-2 {
+    height: 600px;
+    width: 600px;
+    left: -10em;
+    z-index: -1;
+    transform: translateY(10em);
+}
+
+.circle-3 {
+    z-index: 1;
+    height: 450px;
+    width: 450px;
+    right: -10em;
+    transform: translateY(60em);
+    /* background-image: url(../images/me-right-sider.png);
+    background-repeat: no-repeat; */
+}
+
+.circle-3 img {
+    max-width: 55%;
+    width: 50%;
+    height: auto;
+}
+
+
+.circle-4 {
+    height: 350px;
+    width: 350px;
+    bottom: -55em;
+    left: 5em;
+}
+
+.circle-5 {
+    height: 350px;
+    width: 350px;
+    bottom: -65em;
+    left: 50em;
+}
+
+
+
+.circle-code-pic figure {
+    object-fit: contain;
+    background-image: url(../images/Artboard\ 1.png);
+    background-repeat: no-repeat;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+
+
+}
+
+.circle3 {
+    background-position: 45% 35%;
+    background-size: 30em;
+    height: 150px;
+    width: 150px;
+    right: 7em;
+    transform: translateY(4em);
+    z-index: -1;
+}
+
+.circle4 {
+    background-position: 75% 35%;
+    background-size: 60em;
+    height: 400px;
+    width: 400px;
+    right: -4em;
+    transform: translateY(14em);
+    z-index: -1;
+}
+
+
+/********/
+/* Main vam Index */
+/********/
+
+
+/* main section {} */
+
+main section:first-of-type {
+
+    /* margin: 10em 0; */
+    text-align: center;
+}
+
+main section:first-of-type h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light-blue-background-color);
+    margin-bottom: .3em;
+    font-family: 'lato',
+        'dosis',
+        ' arial',
+        sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+main section:first-of-type span {
+    font-family: 'lato',
+        'dosis',
+        ' arial',
+        sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 0.2em;
+}
+
+main section:first-of-type p {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 1.07em;
+
+}
+
+main section:first-of-type a {
+    color: white;
+    line-height: 5em;
+    padding: 1em;
+    background-color: var(--button-color);
+    border-radius: 3em;
+}
+
+main section:first-of-type a:hover {
+    background-color: var(--highlighted-button-color);
+}
+
+/***************************************************/
+/* Tweede section: De vormgeving van de smartphone */
+/***************************************************/
+
+main section:nth-of-type(2) {
+    position: relative;
+    display: flex;
+
+
+
+    gap: 6em;
+    padding-top: 6em;
+}
+
+
+/* main h1:nth-of-type(2) span {
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+} */
+
+main section:nth-of-type(2) figure {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3em;
+}
+
+main section:nth-of-type(2) figure img {
+
+    max-width: 70%;
+    width: 25%;
+    height: auto;
+}
+
+
+
+.titel-1 {
+    word-spacing: -1.7em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    left: -4em;
+    font-family: 'lato', 'dosis', ' arial', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue-background-color);
+    font-size: 2em;
+}
+
+.titel-1 span {
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+main section:nth-of-type(2) article header {
+    margin-bottom: 1em;
+}
+
+/*************************************/
+/* Content die gaat over de techniek */
+/*************************************/
+main section:nth-of-type(3) {
+    position: relative;
+}
+
+main section:nth-of-type(3) article {
+    margin: 5em 0;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    font-size: 3em;
+}
+
+.titel-2 {
+    z-index: 1;
+    padding: 1.5em;
+    word-spacing: -1.7em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    left: -4em;
+    bottom: -10em;
+    font-family: 'lato', 'dosis', ' arial', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue-background-color);
+    font-size: 2em;
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+
+    height: 200px;
+    width: 200px;
+}
+
+.titel-2 span {
+
+    font-size: 5em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+
+}
+
+
+/*********************/
+/* de vierde section */
+/*********************/
+main section:nth-of-type(4) {
+    position: absolute;
+
+
+    left: 0;
+    right: 0;
+    background-color: var(--dark-blue-background-color);
+}
