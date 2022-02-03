@@ -91,63 +91,43 @@
 }
 
 
-/********/
-/* Main vam Index */
-/********/
+/******************/
+/* Eerste section */
+/******************/
 
-
-/* main section {} */
+/********************************/
+/* Hier komt een quote te staan */
+/********************************/
 
 main section:first-of-type {
 
-    /* margin: 10em; */
+    margin: 5em 0;
     text-align: center;
 }
 
+/* Mijn visie */
+
 main section:first-of-type h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
     color: var(--light-blue-background-color);
     margin-bottom: .3em;
     font-family: 'lato',
         'dosis',
         ' arial',
         sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 3em;
 }
 
-main section:first-of-type span {
-    font-family: 'lato',
-        'dosis',
-        ' arial',
-        sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-    margin-left: 0.2em;
-}
 
+/* de visie tekst */
 main section:first-of-type p {
-    margin: auto;
-    width: 50%;
-    text-align: center;
+  color: var(--bodytekst-color);
     line-height: 1.5em;
-    font-size: 1.07em;
+    font-size: 2em;
 
 }
 
-main section:first-of-type a {
-    color: white;
-    line-height: 5em;
-    padding: 1em;
-    background-color: var(--button-color);
-    border-radius: 3em;
-}
-
-main section:first-of-type a:hover {
-    background-color: var(--highlighted-button-color);
-}
 
 /***************************************************/
 /* Tweede section: De vormgeving van de smartphone */
@@ -162,6 +142,7 @@ main section:nth-of-type(2) {
     padding-top: 6em;
 }
 
+/* dit is de vormgeving titel */
 main h1:nth-of-type(2) span {
     color: white;
     background: rgb(2, 0, 36);

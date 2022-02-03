@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'chubbyregular';
-    src: url('./fonts2/chubby-webfont.woff2') format('woff2'),
-        url('./fonts2/chubby-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 
 *,
 *::after,
@@ -20,7 +13,7 @@ html {
 /* Algemene kleurstijlen */
 /*************************/
 :root {
-    --link-color: #8d8d8d;
+    --link-color: #7a7a7a;
     --highlighted-link-color: #8860d0;
 
     --light-blue-background-color: #a0c1ee;
@@ -41,7 +34,7 @@ html {
 body {
     font-family: var(--bodytekst);
     font-weight: normal;
-    /* margin: 2em; */
+   
 }
 
 
@@ -59,7 +52,9 @@ li {
 /*************/
 /* Navigatie */
 /*************/
-
+header img {
+    display: none;
+}
 
 header ul {
 
@@ -88,7 +83,65 @@ header ul a:hover {
 }
 
 main {
-    margin: auto;
+    margin: 3em auto;
     width: 80%;
 
+}
+
+.current-page-highlight {
+    border-bottom: 0.2em solid var(--highlighted-link-color);
+    color: var(--highlighted-link-color);
+    padding-bottom: 0.5em;
+}
+
+
+
+@media (max-width: 38em){
+   body {
+    margin: 0 auto;
+    width: 80%;
+   }
+  header {
+      z-index: 2;
+      position:fixed;
+      left: -10em;
+      top:0;
+      bottom: 0;
+      padding: 1em;
+      background-color: white;
+
+  }
+
+  header ul {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      padding: 1em;
+      margin-top: 2em;
+  }
+
+  header  img {
+      display: block;
+      z-index: 1;
+      width: 20%;
+      position: absolute;
+      top:1em;
+      left: 11em;
+  }
+
+  header li a {
+      font-size: 1em;
+  }
+
+  
+  .toon-menu {
+      left: 0;
+      top: 0;
+      bottom: 0;
+  }
+
+  .annuleren-knop {
+     left: 1em;
+     top: 1em;
+  }
 }
