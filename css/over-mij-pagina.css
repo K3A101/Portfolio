@@ -1,0 +1,204 @@
+h1 {
+    font-size: 3em;
+    color: var(--light-blue-background-color);
+}
+
+h2 {
+    color: var(--button-color);
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+section {
+    margin: 5em 0;
+}
+
+article {
+    padding: 2em;
+}
+
+article p {
+    line-height: 1.5em;
+}
+
+article p {
+
+    margin: 0.5em 0;
+}
+
+/**************/
+/* Section: 1 */
+/**************/
+section:nth-of-type(1) p {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+
+/*************/
+/* Section 3 */
+/*************/
+section:nth-of-type(3) {
+
+    padding: 3em;
+
+    background-color: #09183D;
+    border-radius: 2em;
+    ;
+}
+
+.container {
+    /* width: 380px; */
+    background: #fff;
+    /* margin: 150px auto; */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 16px 97px 10px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 2px 16px 97px 10px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 2px 16px 97px 10px rgba(0, 0, 0, 0.35);
+}
+
+@keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+@-moz-keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+
+@-webkit-keyframes load {
+    from {
+        width: 0%;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li h5 {
+    color: var(--button-color);
+    margin: 1em 0 0.4em 0;
+}
+
+.bar {
+    height: 18px;
+    background-color: #eee;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bar::before {
+    content: "";
+    border-radius: inherit;
+    background: linear-gradient(100deg,
+            hsl(230deg 49% 84%) 0%,
+            hsl(224deg 54% 82%) 10%,
+            hsl(219deg 57% 81%) 20%,
+            hsl(216deg 61% 79%) 31%,
+            hsl(213deg 63% 77%) 43%,
+            hsl(210deg 66% 76%) 54%,
+            hsl(208deg 69% 74%) 65%,
+            hsl(206deg 71% 72%) 75%,
+            hsl(204deg 73% 70%) 84%,
+            hsl(202deg 75% 67%) 93%,
+            hsl(201deg 77% 65%) 100%);
+
+    display: inline-block;
+    padding: 8px;
+    animation: load 3s 0s;
+    -webkit-animation: load 3s 0s;
+    -moz-animation: load 3s 0s;
+
+}
+
+.bar.bar1::before {
+    width: calc(95% - 10px);
+}
+
+.bar.bar2::before {
+    width: calc(85% - 10px);
+}
+
+.bar.bar3::before {
+    width: calc(55% - 10px);
+}
+
+
+/*************/
+/* Section 4 */
+/*************/
+.skills {
+    display: flex;
+    gap: 2.5em;
+    margin: 10% auto;
+    width: 50%;
+    flex-wrap: wrap;
+
+}
+
+section:nth-of-type(4) figure {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    border-radius: 0.3em;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+}
+
+section:nth-of-type(4) h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 1em;
+    color: #292828;
+}
+
+/*  Elke Adobe Logo krijgt hun eigen kleur*/
+.illustrator {
+    background-color: #300;
+    color: #ff9a00;
+}
+
+.xd {
+    background-color: #470137;
+    color: #ff61f6;
+}
+
+.photoshop {
+    background-color: #001e36;
+    color: #31a8ff;
+}
+
+.after-effects {
+    color: #CF96FD;
+    background-color: #00005B;
+}
+
+.premiere {
+    color: #99f;
+    background-color: #00005b;
+}
