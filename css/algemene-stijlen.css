@@ -118,7 +118,7 @@ footer ul {
     }
 
     header {
-        z-index: 2;
+        z-index: 1;
         position: fixed;
         left: -10em;
         top: 0;
@@ -152,13 +152,10 @@ footer ul {
 
 
     .toon-menu {
+        position: fixed;
         left: 0;
-        top: 0;
         bottom: 0;
     }
 
-    .annuleren-knop {
-        left: 1em;
-        top: 1em;
-    }
+
 }

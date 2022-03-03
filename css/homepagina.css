@@ -1,0 +1,784 @@
+section {
+    margin: 3em 0;
+}
+
+
+main section:first-of-type {
+    margin: 0 auto;
+    width: 80%;
+}
+
+main section:first-of-type h1 {
+
+    color: var(--light-blue-background-color);
+
+    font-family: 'lato',
+        'dosis',
+        ' arial',
+        sans-serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+main section:first-of-type p {
+    margin: .3em 0;
+}
+
+main section:first-of-type a {
+    margin: .3em 0;
+    padding: 1em 0 0.3em 0;
+    font-weight: 700;
+    color: var(--highlighted-link-color);
+    transition: 0.5s;
+}
+
+
+main section:first-of-type a:hover {
+
+
+    border-bottom: 0.2em solid var(--highlighted-link-color);
+
+}
+
+/*******************************************/
+/* Section 2: Vormgeving van de smartphone */
+/*******************************************/
+
+main section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(2) figure {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 2em;
+}
+
+main section:nth-of-type(2) figure img {
+    min-width: 18em;
+}
+
+.titel-1 {
+    display: flex;
+    align-items: center;
+
+    padding: 1.2em;
+    font-family: 'lato', 'dosis', ' arial', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue-background-color);
+    font-size: 1.7em;
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+}
+
+.titel-1 span {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+main section:nth-of-type(2) article header {
+    margin-bottom: 1em;
+}
+
+
+/*******************************/
+/* Section 3: programmeertalen */
+/*******************************/
+
+main section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-of-type(3) article {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-family: 'lato',
+        'dosis',
+        ' arial',
+        sans-serif;
+}
+
+main section:nth-of-type(3) article h2 {
+    font-size: 1.5em;
+    margin: 2em 0;
+    color: var(--dark-blue-background-color);
+
+}
+
+.titel-2 {
+    z-index: 1;
+    padding: 1.2em;
+    display: flex;
+    align-items: center;
+    font-family: 'lato', 'dosis', ' arial', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue-background-color);
+    font-size: 2em;
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+}
+
+.titel-2 span {
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+/***********************************/
+/* Section 4: De techniek gedeelte */
+/***********************************/
+
+main section:nth-of-type(4) {
+    position: absolute;
+    padding: 2em;
+    right: -5em;
+    left: 0;
+
+    color: var(--light-blue-background-color);
+    background-color: var(--dark-blue-background-color);
+}
+
+main section:nth-of-type(4) article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section:nth-of-type(4) article h1 {
+    font-family: 'lato', 'dosis', ' arial', sans-serif;
+    word-spacing: 0.5em;
+    padding: 1em;
+    text-align: center;
+}
+
+main section:nth-of-type(4) article figure img {
+    min-width: 19em;
+}
+
+main section:nth-of-type(4) article a {
+    margin: 1.5em;
+    align-self: center;
+    padding: 1em;
+    color: var(--light-blue-background-color);
+    border-radius: 4em;
+    border: 0.2em solid var(--light-blue-background-color);
+    background-color: var(--dark-blue-background-color);
+    transition: ease-in-out 0.5s;
+}
+
+main section:nth-of-type(4) article a:hover {
+    transition: ease-in-out 0.5s;
+    font-weight: bold;
+    border: 0.4em solid var(--light-blue-background-color);
+
+}
+
+code {
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1em;
+    position: absolute;
+}
+
+code:nth-of-type(1),
+code:nth-of-type(3),
+code:nth-of-type(7),
+code:nth-of-type(8),
+code:nth-of-type(12) {
+    font-size: 1.7em;
+}
+
+code:nth-of-type(1) {
+    top: 2em;
+}
+
+code:nth-of-type(2) {
+    top: 2em;
+    left: 8em;
+}
+
+code:nth-of-type(3) {
+    right: 0.5em;
+    top: 3em;
+}
+
+code:nth-of-type(4) {
+    right: 2em;
+    top: 13em;
+}
+
+code:nth-of-type(5) {
+    left: 1em;
+    top: 13em;
+}
+
+code:nth-of-type(6) {
+    right: 3em;
+    top: 20em;
+}
+
+code:nth-of-type(7) {
+    right: 10em;
+    bottom: 0;
+}
+
+code:nth-of-type(8) {
+    left: 0.4em;
+    top: 12em;
+}
+
+code:nth-of-type(9) {
+    z-index: -1;
+    left: 3em;
+    bottom: 18em;
+}
+
+code:nth-of-type(10) {
+    right: 1.3em;
+    bottom: 5em;
+}
+
+code:nth-of-type(11) {
+    bottom: 2em;
+    left: 2em;
+}
+
+code:nth-of-type(12) {
+    bottom: 4em;
+    left: 2em;
+}
+
+code:nth-of-type(13) {
+    bottom: 10em;
+    right: 4em;
+}
+
+code:nth-of-type(14) {
+    left: 4em;
+    bottom: 4em;
+}
+
+code:nth-of-type(15) {
+    right: 3em;
+}
+
+code:nth-of-type(16) {
+    top: 2em;
+    right: 2em;
+}
+
+/***********************/
+/* Achtergrond Cirkels */
+/***********************/
+
+.circle-gradients figure {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+.circle-1 {
+    height: 250px;
+    width: 250px;
+    top: -9.5em;
+    left: -9.5em;
+    z-index: -1;
+}
+
+.circle-2 {
+    height: 350px;
+    width: 350px;
+    left: -10em;
+    z-index: -1;
+    top: 25em;
+}
+
+.circle-3 {
+    z-index: 1;
+
+    max-width: 50%;
+    width: 40%;
+    height: auto;
+
+    top: 10em;
+    right: -5em;
+
+    /* background-image: url(../images/me-right-sider.png);
+    background-repeat: no-repeat; */
+}
+
+.circle-3 img {
+    max-width: 55%;
+    width: 50%;
+    height: auto;
+}
+
+
+.circle-4 {
+    height: 350px;
+    width: 350px;
+    bottom: -55em;
+    left: 5em;
+}
+
+.circle-5 {
+    height: 350px;
+    width: 350px;
+    bottom: -65em;
+    left: 50em;
+}
+
+
+
+.circle-code-pic figure {
+    object-fit: contain;
+    background-image: url(../images/Artboard\ 1.png);
+    background-repeat: no-repeat;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+
+
+}
+
+.circle3 {
+    background-position: 45% 35%;
+    background-size: 30em;
+    height: 150px;
+    width: 150px;
+    right: -4em;
+    top: -4em;
+    z-index: -1;
+}
+
+.circle4 {
+    background-position: 75% 35%;
+    background-size: 60em;
+    height: 400px;
+    width: 400px;
+    right: -4em;
+    top: 70em;
+    z-index: -1;
+}
+
+.circle5 {
+    background-position: 55% 35%;
+    background-size: 60em;
+    height: 200px;
+    width: 200px;
+    transform: translateY(23em);
+    left: -4em;
+    z-index: 1;
+
+}
+
+/**********/
+/* Footer */
+/**********/
+
+footer {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 40em;
+    padding: 1em;
+
+}
+
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+@media (min-width: 47em) {
+    main section:nth-of-type(2) {
+        position: relative;
+        display: flex;
+        padding-top: 6em;
+    }
+
+
+    main section:nth-of-type(2) figure {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 3em;
+
+    }
+
+    main section:nth-of-type(2) figure img {
+
+        max-width: 70%;
+        width: 25%;
+        height: auto;
+    }
+}
+
+
+
+
+
+@media (min-width: 68em) {
+
+    /********/
+    /* Main vam Index */
+    /********/
+
+    main section:first-of-type h1 {
+        font-size: 5em;
+    }
+
+    main section:first-of-type p {
+        font-size: 2em;
+    }
+
+    main section:first-of-type a {
+        font-size: 1.3em;
+    }
+
+
+
+    /***************************************************/
+    /* Section 2: De vormgeving van de smartphone */
+    /***************************************************/
+
+
+
+
+    .titel-1 {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        padding: 1.4em;
+        top: 0;
+        left: -4em;
+        font-family: 'lato', 'dosis', ' arial', sans-serif;
+        font-weight: bold;
+        color: var(--dark-blue-background-color);
+        font-size: 2em;
+        width: 6em;
+        height: 6em;
+    }
+
+    .titel-1 span {
+        font-size: 5em;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+
+    }
+
+    main section:nth-of-type(2) article header {
+        margin-bottom: 1em;
+    }
+
+    /*************************************/
+    /* Content die gaat over de techniek */
+    /*************************************/
+    main section:nth-of-type(3) {
+        position: relative;
+    }
+
+    main section:nth-of-type(3) article {
+        font-family: 'lato',
+            'dosis',
+            ' arial',
+            sans-serif;
+        margin: 5em 0;
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+        font-size: 2.5em;
+    }
+
+    /* Dit is 2 techniek code */
+    .titel-2 {
+        z-index: 1;
+        padding: 1.5em;
+
+        position: absolute;
+        display: flex;
+        align-items: center;
+
+        left: -4em;
+        bottom: 2em;
+        font-family: 'lato', 'dosis', ' arial', sans-serif;
+        font-weight: bold;
+        color: var(--dark-blue-background-color);
+        font-size: 2em;
+        background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+        border-radius: 50%;
+
+        height: 200px;
+        width: 200px;
+    }
+
+    .titel-2 span {
+
+        font-size: 5em;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+
+    }
+
+
+    /*********************/
+    /* de vierde section de Techniek gedeelte */
+    /*********************/
+    main section:nth-of-type(4) {
+        margin-bottom: 3em;
+        z-index: 0;
+        position: absolute;
+        padding: 3em;
+        color: var(--light-blue-background-color);
+        left: 0;
+        right: 0;
+        background-color: var(--dark-blue-background-color);
+    }
+
+    main section:nth-of-type(4) article {
+        margin: auto;
+        width: 80%;
+
+    }
+
+    main section:nth-of-type(4) article h1 {
+        font-family: 'lato', 'dosis', ' arial', sans-serif;
+        word-spacing: 0.5em;
+        padding: 1em;
+        text-align: center;
+        font-size: 3em;
+    }
+
+
+
+
+    /**************************/
+    /* stijling voor de codes */
+    /**************************/
+
+    code {
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 1.5em;
+        position: absolute;
+    }
+
+    code:nth-of-type(1),
+    code:nth-of-type(3),
+    code:nth-of-type(7),
+    code:nth-of-type(8),
+    code:nth-of-type(12) {
+        font-size: 4em;
+    }
+
+    code:nth-of-type(1) {
+        top: 2em;
+    }
+
+    code:nth-of-type(2) {
+        top: 10em;
+        left: 8em;
+    }
+
+    code:nth-of-type(3) {
+        right: 2em;
+        top: 3em;
+    }
+
+    code:nth-of-type(4) {
+        right: 2em;
+        top: 13em;
+    }
+
+    code:nth-of-type(5) {
+        left: 3em;
+        top: 13em;
+    }
+
+    code:nth-of-type(6) {
+        right: 3em;
+        top: 20em;
+    }
+
+    code:nth-of-type(7) {
+        right: 1em;
+        top: 9em;
+    }
+
+    code:nth-of-type(8) {
+        left: 2em;
+        top: 8em;
+    }
+
+    code:nth-of-type(9) {
+        left: 3em;
+        bottom: 18em;
+    }
+
+    code:nth-of-type(10) {
+        right: 1.3em;
+        bottom: 18em;
+    }
+
+    code:nth-of-type(11) {
+        top: 28em;
+        left: 2em;
+    }
+
+    code:nth-of-type(12) {
+        bottom: 4em;
+        left: 2em;
+    }
+
+    code:nth-of-type(13) {
+        bottom: 10em;
+        right: 4em;
+    }
+
+    code:nth-of-type(14) {
+        left: 4em;
+        bottom: 4em;
+    }
+
+    code:nth-of-type(15) {
+        right: 3em;
+    }
+
+    code:nth-of-type(16) {
+        top: 2em;
+        right: 2em;
+    }
+
+    .blue-circles {
+
+        height: 130px;
+        width: 130px;
+        position: absolute;
+
+        background-color: var(--light-blue-background-color);
+        border-radius: 50%;
+        top: -1.5em;
+        left: 12em;
+
+    }
+
+    footer {
+        margin-top: 100em;
+        padding: 3em;
+
+    }
+
+    footer ul {
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+    }
+
+    /***********************/
+    /* Achtergrond Cirkels */
+    /***********************/
+
+    .circle-gradients figure {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .circle-1 {
+        height: 250px;
+        width: 250px;
+        top: -4em;
+        left: -4em;
+        z-index: -1;
+    }
+
+    .circle-2 {
+        height: 600px;
+        width: 600px;
+        left: -10em;
+        z-index: -1;
+        transform: translateY(10em);
+    }
+
+    .circle-3 {
+        z-index: 1;
+        height: 450px;
+        width: 450px;
+        right: -10em;
+        transform: translateY(60em);
+        /* background-image: url(../images/me-right-sider.png);
+    background-repeat: no-repeat; */
+    }
+
+    .circle-3 img {
+        max-width: 55%;
+        width: 50%;
+        height: auto;
+    }
+
+
+    .circle-4 {
+        height: 350px;
+        width: 350px;
+        bottom: -55em;
+        left: 5em;
+    }
+
+    .circle-5 {
+        height: 350px;
+        width: 350px;
+        bottom: -65em;
+        left: 50em;
+    }
+
+
+
+    .circle-code-pic figure {
+        object-fit: contain;
+        background-image: url(../images/Artboard\ 1.png);
+        background-repeat: no-repeat;
+        clip-path: circle(50% at 50% 50%);
+        position: absolute;
+    }
+
+    .circle3 {
+
+        right: 4em;
+        top: 4em;
+        z-index: -1;
+    }
+
+    .circle4 {
+
+        right: -4em;
+        top: 20em;
+        z-index: -1;
+    }
+
+    .circle5 {
+
+        height: 400px;
+        width: 400px;
+        bottom: -130em;
+        left: 0;
+        z-index: 1;
+
+    }
+}

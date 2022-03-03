@@ -146,6 +146,7 @@ h1 {
 /*************/
 .skills {
     display: flex;
+    justify-content: center;
     gap: 2.5em;
     margin: 10% auto;
     width: 50%;
@@ -201,4 +202,37 @@ section:nth-of-type(4) h5 {
 .premiere {
     color: #99f;
     background-color: #00005b;
+}
+
+/*************/
+/* Section 5 */
+/*************/
+
+
+/*************/
+/* Section 6 */
+/*************/
+section:nth-of-type(6) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+section:nth-of-type(6) li {
+
+    display: flex;
+    gap: 2em;
+}
+
+
+section:nth-of-type(6) li a {
+    align-self: flex-end;
+}
+
+section:nth-of-type(6) ul img {
+    width: 1.5em;
+    height: auto;
+
 }
