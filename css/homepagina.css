@@ -21,24 +21,19 @@ main section:first-of-type h1 {
 }
 
 main section:first-of-type p {
-    margin: .3em 0;
+    margin: .3em 0 1em 0;
 }
 
 main section:first-of-type a {
-    margin: .3em 0;
-    padding: 1em 0 0.3em 0;
+    margin: 1em 0;
+    padding: .8em 2em;
     font-weight: 700;
-    color: var(--highlighted-link-color);
+    color: white;
     transition: 0.5s;
 }
 
 
-main section:first-of-type a:hover {
 
-
-    border-bottom: 0.2em solid var(--highlighted-link-color);
-
-}
 
 /*******************************************/
 /* Section 2: Vormgeving van de smartphone */
@@ -108,7 +103,7 @@ main section:nth-of-type(3) article {
 main section:nth-of-type(3) article h2 {
     font-size: 1.5em;
     margin: 2em 0;
-    color: var(--dark-blue-background-color);
+    color: var(--button-color);
 
 }
 
@@ -170,15 +165,12 @@ main section:nth-of-type(4) article a {
     padding: 1em;
     color: var(--light-blue-background-color);
     border-radius: 4em;
-    border: 0.2em solid var(--light-blue-background-color);
-    background-color: var(--dark-blue-background-color);
-    transition: ease-in-out 0.5s;
+
 }
 
 main section:nth-of-type(4) article a:hover {
     transition: ease-in-out 0.5s;
-    font-weight: bold;
-    border: 0.4em solid var(--light-blue-background-color);
+
 
 }
 

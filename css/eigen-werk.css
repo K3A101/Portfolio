@@ -239,7 +239,7 @@ main section:nth-of-type(2) article img {
 main section:nth-of-type(3) h1 {
     padding: 1em;
     text-align: center;
-    color: var(--dark-blue-background-color);
+    color: var(--button-color);
 }
 
 main section:nth-of-type(3) figure ul {

@@ -29,6 +29,7 @@ article p {
     margin: 0.5em 0;
 }
 
+/* Mijn naam */
 /**************/
 /* Section: 1 */
 /**************/
@@ -37,11 +38,23 @@ section:nth-of-type(1) p {
     text-align: center;
 }
 
+/* Wie ben ik */
+/*************/
+/* section 2 */
+/*************/
+section:nth-of-type(2) a {
 
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: .5em 1em;
+}
+
+/* Vaardigheden */
 /*************/
 /* Section 3 */
 /*************/
 section:nth-of-type(3) {
+    position: relative;
 
     padding: 3em;
 
@@ -140,16 +153,16 @@ h1 {
     width: calc(55% - 10px);
 }
 
-
+/* Programma's */
 /*************/
 /* Section 4 */
 /*************/
 .skills {
     display: flex;
     justify-content: center;
-    gap: 2.5em;
+    gap: 2em;
     margin: 10% auto;
-    width: 50%;
+    width: 60%;
     flex-wrap: wrap;
 
 }
@@ -236,3 +249,81 @@ section:nth-of-type(6) ul img {
     height: auto;
 
 }
+
+@media(min-width: 68em) {
+    h1 {
+        text-align: initial;
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    article p {
+        line-height: 1.8em;
+    }
+
+    article p:last-of-type {
+        margin-bottom: 2em;
+    }
+
+    /* Mijn naam */
+    /****************/
+    /*    Section 1 */
+    /****************/
+
+    section:nth-of-type(1) {
+        display: flex;
+        gap: 2em;
+        align-items: center;
+    }
+
+    section:nth-of-type(1) span {
+        display: block;
+    }
+
+
+    img[alt="foto van Keisha"] {
+        width: 30%;
+    }
+
+    section:nth-of-type(1) p {
+        text-align: initial;
+        margin: 0.3em;
+        font-size: 2em;
+    }
+
+    /* Wie ben ik */
+    /**************/
+    /* Section 2  */
+    /**************/
+    section:nth-of-type(2) {
+        display: flex;
+        gap: 2em;
+    }
+
+    img[alt="Mijn eigenschappen"] {
+        width: 45%;
+    }
+
+    section:nth-of-type(2) h2 {
+        text-align: left;
+    }
+
+    /* Vaardigheden */
+    /**************/
+    /* Section 3 */
+    /**************/
+    section:nth-of-type(3)  {
+        margin: 1em 10em ;
+    }
+
+    img[alt="Keisha op de computer"] {
+        
+        position: absolute;
+        transform: rotate(-10deg);
+        top: -8em;
+        right: 0;
+        width: 30%;
+    }
