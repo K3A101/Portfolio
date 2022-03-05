@@ -137,7 +137,7 @@ main article ol li {
 
 .circle-code-pic figure {
     object-fit: contain;
-    background-image: url(../images/Artboard\ 1.png);
+    background-image: url(../images/artboard-1.png);
     background-repeat: no-repeat;
     clip-path: circle(50% at 50% 50%);
     position: absolute;
@@ -678,8 +678,8 @@ main section:nth-of-type(5) img {
     .circle-1 {
         height: 250px;
         width: 250px;
-        top: -4em;
-        left: -4em;
+        top: -2em;
+        left: -2em;
         z-index: -1;
     }
 
@@ -726,7 +726,7 @@ main section:nth-of-type(5) img {
 
     .circle-code-pic figure {
         object-fit: contain;
-        background-image: url(../images/Artboard\ 1.png);
+        background-image: url(../images/artboard-1.png);
         background-repeat: no-repeat;
         clip-path: circle(50% at 50% 50%);
         position: absolute;

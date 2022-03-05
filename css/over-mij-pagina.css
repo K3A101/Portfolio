@@ -29,6 +29,10 @@ article p {
     margin: 0.5em 0;
 }
 
+article p:last-of-type {
+    margin-bottom: 2em;
+}
+
 /* Mijn naam */
 /**************/
 /* Section: 1 */
@@ -250,6 +254,112 @@ section:nth-of-type(6) ul img {
 
 }
 
+/*******************/
+/*     The circles */
+/*******************/
+
+.circle-gradients {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+
+.circle-1 {
+    height: 250px;
+    width: 250px;
+    top: -8.5em;
+    left: -8.5em;
+    z-index: -1;
+}
+
+
+.circle-2 {
+    height: 150px;
+    width: 150px;
+    right: 3em;
+    z-index: -1;
+    top: 1em;
+}
+
+.circle-3 {
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    top: 35em;
+    right: 3em;
+
+    /* background-image: url(../images/me-right-sider.png);
+    background-repeat: no-repeat; }*/
+}
+
+/* 
+.circle-3 img {
+    max-width: 55%;
+    width: 50%;
+    height: auto;
+}
+
+
+.circle-4 {
+    height: 350px;
+    width: 350px;
+    bottom: -55em;
+    left: 5em;
+}
+
+.circle-5 {
+    height: 350px;
+    width: 350px;
+    bottom: -65em;
+    left: 50em;
+}
+
+*/
+
+.circle-code-pic figure {
+    object-fit: contain;
+    background-image: url(../images/artboard-1.png);
+    background-repeat: no-repeat;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+
+
+}
+
+.circle1 {
+    background-position: 45% 35%;
+    background-size: 30em;
+    height: 150px;
+    width: 150px;
+    right: 4em;
+    top: 4em;
+    z-index: 1;
+}
+
+/* .circle2 {
+    background-position: 75% 35%;
+    background-size: 60em;
+    height: 400px;
+    width: 400px;
+    right: -4em;
+    top: 70em;
+    z-index: -1;
+}
+
+.circle3 {
+    background-position: 55% 35%;
+    background-size: 60em;
+    height: 200px;
+    width: 200px;
+    transform: translateY(23em);
+    left: -4em;
+    z-index: 1;
+
+} */
+
 @media(min-width: 68em) {
     h1 {
         text-align: initial;
@@ -315,15 +425,125 @@ section:nth-of-type(6) ul img {
     /**************/
     /* Section 3 */
     /**************/
-    section:nth-of-type(3)  {
-        margin: 1em 10em ;
+    section:nth-of-type(3) {
+        margin: 1em 10em;
     }
 
     img[alt="Keisha op de computer"] {
-        
+
         position: absolute;
         transform: rotate(-10deg);
         top: -8em;
         right: 0;
         width: 30%;
     }
+
+
+    /*******************/
+    /*     The circles */
+    /*******************/
+
+    .circle-gradients {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
+        border-radius: 50%;
+        position: absolute;
+    }
+
+
+
+    .circle-1 {
+        height: 250px;
+        width: 250px;
+        top: -9.5em;
+        left: -9.5em;
+        z-index: -1;
+    }
+
+    /* 
+.circle-2 {
+    height: 350px;
+    width: 350px;
+    left: -10em;
+    z-index: -1;
+    top: 25em;
+}
+
+.circle-3 {
+    z-index: 1;
+
+    max-width: 50%;
+    width: 40%;
+    height: auto;
+
+    top: 10em;
+    right: -5em;
+
+    /* background-image: url(../images/me-right-sider.png);
+    background-repeat: no-repeat; */
+}
+
+/* 
+.circle-3 img {
+    max-width: 55%;
+    width: 50%;
+    height: auto;
+}
+
+
+.circle-4 {
+    height: 350px;
+    width: 350px;
+    bottom: -55em;
+    left: 5em;
+}
+
+.circle-5 {
+    height: 350px;
+    width: 350px;
+    bottom: -65em;
+    left: 50em;
+}
+
+
+
+.circle-code-pic  {
+    object-fit: contain;
+    background-image: url(../images/Artboard\ 1.png);
+    background-repeat: no-repeat;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+
+
+}
+
+.circle1 {
+    background-position: 45% 35%;
+    background-size: 30em;
+    height: 150px;
+    width: 150px;
+    right: -4em;
+    top: -4em;
+    z-index: -1;
+}
+
+.circle2 {
+    background-position: 75% 35%;
+    background-size: 60em;
+    height: 400px;
+    width: 400px;
+    right: -4em;
+    top: 70em;
+    z-index: -1;
+}
+
+.circle3 {
+    background-position: 55% 35%;
+    background-size: 60em;
+    height: 200px;
+    width: 200px;
+    transform: translateY(23em);
+    left: -4em;
+    z-index: 1;
+
+}*/

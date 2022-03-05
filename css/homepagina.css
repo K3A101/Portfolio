@@ -21,7 +21,7 @@ main section:first-of-type h1 {
 }
 
 main section:first-of-type p {
-    margin: .3em 0 1em 0;
+    margin: .3em 0 2em 0;
 }
 
 main section:first-of-type a {
@@ -336,7 +336,7 @@ code:nth-of-type(16) {
 
 .circle-code-pic figure {
     object-fit: contain;
-    background-image: url(../images/Artboard\ 1.png);
+    background-image: url(../images/artboard-1.png);
     background-repeat: no-repeat;
     clip-path: circle(50% at 50% 50%);
     position: absolute;
@@ -744,7 +744,7 @@ footer ul {
 
     .circle-code-pic figure {
         object-fit: contain;
-        background-image: url(../images/Artboard\ 1.png);
+        background-image: url(../images/artboard-1.png);
         background-repeat: no-repeat;
         clip-path: circle(50% at 50% 50%);
         position: absolute;
