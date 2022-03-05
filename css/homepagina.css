@@ -381,10 +381,7 @@ code:nth-of-type(16) {
 
 footer {
 
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
     margin-top: 40em;
     padding: 1em;
 
@@ -671,16 +668,12 @@ footer ul {
     }
 
     footer {
-        margin-top: 100em;
-        padding: 3em;
+        margin-top: 90em;
+
 
     }
 
-    footer ul {
-        display: flex;
-        justify-content: center;
-        gap: 3em;
-    }
+
 
     /***********************/
     /* Achtergrond Cirkels */

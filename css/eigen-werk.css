@@ -88,8 +88,8 @@ main article ol li {
 .circle-1 {
     height: 250px;
     width: 250px;
-    top: -8em;
-    left: -8em;
+    top: -10em;
+    left: -10em;
     z-index: -1;
 }
 
@@ -196,8 +196,12 @@ main section:nth-of-type(2) nav ul a:nth-of-type(2) {
 
 }
 
+main section:nth-of-type(2) article a:nth-of-type(3) {
+    display: none;
+}
 
 main section:nth-of-type(2) article {
+
 
     display: flex;
     flex-direction: column;
@@ -205,6 +209,9 @@ main section:nth-of-type(2) article {
     gap: 3em;
 }
 
+ain section:nth-of-type(2) article:nth-of-type(1) {
+    background-color: white;
+}
 
 main section:nth-of-type(2) article img {
     width: 60%;
@@ -227,6 +234,14 @@ main section:nth-of-type(2) article img {
 .titel span {
     color: white;
     margin-right: .5em;
+}
+
+img[alt="piggy spaarpot"] {
+    position: absolute;
+    bottom: -35em;
+    left: -20em;
+    width: 50%;
+    height: auto;
 }
 
 /* Responsive design */
@@ -282,10 +297,19 @@ main section:nth-of-type(4) figure img {
 
 }
 
+main section:nth-of-type(4) ul {
+    margin-bottom: 1.5em;
+}
+
+main section:nth-of-type(4) a {
+    padding: 0.9em;
+}
+
 /******************/
 /* Vijfde section */
 /* Iteraties */
 /******************/
+
 
 main section:nth-of-type(5) .image-list {
     display: flex;
@@ -302,6 +326,10 @@ main section:nth-of-type(5) img {
     border-radius: 2em;
 }
 
+main section:nth-of-type(5) li {
+    list-style-type: inherit;
+}
+
 @media (min-width: 68em) {
     /******************/
     /* Eerste section */
@@ -313,7 +341,7 @@ main section:nth-of-type(5) img {
 
     main section:first-of-type {
 
-        margin: 5em 0;
+        margin: 0 10em;
         text-align: center;
     }
 
@@ -467,6 +495,19 @@ main section:nth-of-type(5) img {
         list-style: initial;
     }
 
+    main section:nth-of-type(2) article a:nth-of-type(3) {
+        display: block;
+        position: absolute;
+        transform: translateY(16em);
+        right: 5em;
+        text-align: center;
+        width: 160px;
+        height: auto;
+        font-weight: bold;
+        font-size: 1.1em;
+        padding: 1.2em;
+    }
+
 
 
     /********************************/
@@ -587,8 +628,12 @@ main section:nth-of-type(5) img {
         margin: 2em 0 .5em 0;
     }
 
+    section:nth-of-type(4) a {
 
-
+        font-weight: bold;
+        padding: 0.9em;
+        font-size: 1.2em;
+    }
 
 
     section:nth-of-type(4) article {
@@ -600,6 +645,7 @@ main section:nth-of-type(5) img {
 
     section:nth-of-type(4) figure {
         display: flex;
+
         flex-direction: column;
         position: absolute;
 
@@ -631,6 +677,9 @@ main section:nth-of-type(5) img {
         margin: 1em 0 0.5em 0;
     }
 
+    section:nth-of-type(4) article ul:last-of-type {
+        margin-bottom: 2em;
+    }
 
 
     @media (min-width: 110em) {

@@ -171,6 +171,16 @@ h1 {
 
 }
 
+.skills figure {
+    transition: ease-in-out 0.2s;
+}
+
+.skills figure:hover,
+.skills figure:active {
+    transition: ease-in-out 0.2s;
+    transform: scale(1.2);
+}
+
 section:nth-of-type(4) figure {
 
     display: flex;
@@ -224,13 +234,21 @@ section:nth-of-type(4) h5 {
 /*************/
 /* Section 5 */
 /*************/
+section:nth-of-type(5) {
+    display: flex;
 
+    flex-direction: column;
+    align-items: center;
+
+
+}
 
 /*************/
 /* Section 6 */
 /*************/
 section:nth-of-type(6) {
     display: flex;
+
     flex-direction: column;
     align-items: center;
 
@@ -238,18 +256,31 @@ section:nth-of-type(6) {
 }
 
 section:nth-of-type(6) li {
-
+    padding: 1em 0;
     display: flex;
     gap: 2em;
+    transition: ease-in-out 0.3s;
 }
 
+section:nth-of-type(6) li:hover,
+section:nth-of-type(6) li:active {
+    transform: scale(1.2);
+}
 
 section:nth-of-type(6) li a {
+    transition: ease-in-out 0.5s;
+    font-size: 1.2em;
     align-self: flex-end;
 }
 
+section:nth-of-type(6) li a:hover,
+section:nth-of-type(6) li a:active {
+
+    color: var(--button-color);
+}
+
 section:nth-of-type(6) ul img {
-    width: 1.5em;
+    width: 1.6em;
     height: auto;
 
 }
@@ -279,45 +310,36 @@ section:nth-of-type(6) ul img {
 .circle-2 {
     height: 150px;
     width: 150px;
-    right: 3em;
+    right: 2em;
     z-index: -1;
-    top: 1em;
+    top: 0.5em;
 }
 
 .circle-3 {
     z-index: 1;
     height: 50px;
     width: 50px;
-    top: 35em;
+    top: 28em;
     right: 3em;
 
     /* background-image: url(../images/me-right-sider.png);
     background-repeat: no-repeat; }*/
 }
 
-/* 
-.circle-3 img {
-    max-width: 55%;
-    width: 50%;
-    height: auto;
-}
-
 
 .circle-4 {
-    height: 350px;
-    width: 350px;
-    bottom: -55em;
-    left: 5em;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    left: -5em;
+    bottom: -150em;
 }
 
-.circle-5 {
-    height: 350px;
-    width: 350px;
-    bottom: -65em;
-    left: 50em;
-}
+.circle-4 img {
+    width: 50%;
+    margin-left: 7em;
 
-*/
+}
 
 .circle-code-pic figure {
     object-fit: contain;
@@ -325,8 +347,6 @@ section:nth-of-type(6) ul img {
     background-repeat: no-repeat;
     clip-path: circle(50% at 50% 50%);
     position: absolute;
-
-
 }
 
 .circle1 {
@@ -334,21 +354,28 @@ section:nth-of-type(6) ul img {
     background-size: 30em;
     height: 150px;
     width: 150px;
-    right: 4em;
-    top: 4em;
+
+
+    right: 1em;
+    bottom: -1em;
+    transform: translateY(88em);
     z-index: 1;
 }
 
-/* .circle2 {
+
+
+.circle2 {
     background-position: 75% 35%;
     background-size: 60em;
-    height: 400px;
-    width: 400px;
-    right: -4em;
-    top: 70em;
+    height: 300px;
+    width: 300px;
+    right: 10em;
+    transform: translateY(120em);
+    bottom: 0;
     z-index: -1;
 }
 
+/*
 .circle3 {
     background-position: 55% 35%;
     background-size: 60em;
@@ -438,6 +465,27 @@ section:nth-of-type(6) ul img {
         width: 30%;
     }
 
+    /*****************/
+    /*     Section 5 */
+    /*****************/
+    section:nth-of-type(5) {
+        display: flex;
+
+        flex-direction: row;
+        align-items: center;
+
+
+    }
+
+    section:nth-of-type(5) h2 {
+        text-align: left;
+
+    }
+
+    img[alt="hobby"] {
+        width: 40%;
+    }
+
 
     /*******************/
     /*     The circles */
@@ -452,98 +500,70 @@ section:nth-of-type(6) ul img {
 
 
 
+
     .circle-1 {
         height: 250px;
         width: 250px;
-        top: -9.5em;
-        left: -9.5em;
+        top: -4em;
+        left: -4em;
         z-index: -1;
     }
 
-    /* 
-.circle-2 {
-    height: 350px;
-    width: 350px;
-    left: -10em;
-    z-index: -1;
-    top: 25em;
-}
 
-.circle-3 {
-    z-index: 1;
+    .circle-2 {
+        height: 250px;
+        width: 250px;
+        right: 10em;
+        z-index: -1;
+        top: 10em;
+    }
 
-    max-width: 50%;
-    width: 40%;
-    height: auto;
+    .circle-3 {
+        z-index: 1;
+        height: 80px;
+        width: 80px;
+        top: 28em;
+        right: 20em;
 
-    top: 10em;
-    right: -5em;
-
-    /* background-image: url(../images/me-right-sider.png);
-    background-repeat: no-repeat; */
-}
-
-/* 
-.circle-3 img {
-    max-width: 55%;
-    width: 50%;
-    height: auto;
-}
+        /* background-image: url(../images/me-right-sider.png);
+    background-repeat: no-repeat; }*/
+    }
 
 
-.circle-4 {
-    height: 350px;
-    width: 350px;
-    bottom: -55em;
-    left: 5em;
-}
+    .circle-4 {
+        z-index: -1;
+        height: 280px;
+        width: 280px;
+        left: 2em;
+        bottom: -90em;
+    }
 
-.circle-5 {
-    height: 350px;
-    width: 350px;
-    bottom: -65em;
-    left: 50em;
-}
+    .circle-4 img {
+        width: 50%;
+        margin-left: 3em;
 
+    }
 
-
-.circle-code-pic  {
-    object-fit: contain;
-    background-image: url(../images/Artboard\ 1.png);
-    background-repeat: no-repeat;
-    clip-path: circle(50% at 50% 50%);
-    position: absolute;
+    .circle1 {
+        background-position: 45% 35%;
+        background-size: 30em;
+        height: 150px;
+        width: 150px;
 
 
-}
+        left: 15em;
+        top: 10em;
 
-.circle1 {
-    background-position: 45% 35%;
-    background-size: 30em;
-    height: 150px;
-    width: 150px;
-    right: -4em;
-    top: -4em;
-    z-index: -1;
-}
+        z-index: 1;
+    }
 
-.circle2 {
-    background-position: 75% 35%;
-    background-size: 60em;
-    height: 400px;
-    width: 400px;
-    right: -4em;
-    top: 70em;
-    z-index: -1;
-}
+    .circle2 {
+        background-position: 65% 39%;
+        background-size: 60em;
+        height: 300px;
+        width: 300px;
+        right: -5em;
 
-.circle3 {
-    background-position: 55% 35%;
-    background-size: 60em;
-    height: 200px;
-    width: 200px;
-    transform: translateY(23em);
-    left: -4em;
-    z-index: 1;
-
-}*/
+        top: -30em;
+        z-index: -1;
+    }
