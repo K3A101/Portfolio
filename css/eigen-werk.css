@@ -5,14 +5,12 @@ section {
 }
 
 h2 {
-    background-color: rgb(196, 220, 247);
-    font-size: 1.5em;
-    color: var(--dark-blue-background-color);
-    padding: 0.5em;
-    border-radius: 0 25em 25em 0;
     margin: 1em 0;
-    /* background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%); */
-
+    padding: 0.5em;
+    font-size: 1.5em;
+    border-radius: 0 25em 25em 0;
+    background-color: rgb(196, 220, 247);
+    color: var(--dark-blue-background-color);
 }
 
 article {
@@ -20,8 +18,8 @@ article {
 }
 
 h3 {
-    color: var(--dark-blue-background-color);
     margin: 1em 0 0.5em 0;
+    color: var(--dark-blue-background-color);
 }
 
 p {
@@ -29,13 +27,13 @@ p {
 }
 
 p span {
-    display: block;
     margin: 1em 0;
+    display: block;
 }
 
 main article li {
-    color: var(--bodytekst-color);
     line-height: 1.5em;
+    color: var(--bodytekst-color);
 }
 
 main article ol li {
@@ -47,8 +45,8 @@ main article ol li {
 }
 
 .apps-metadata ul {
-    display: block;
     padding: 0;
+    display: block;
     transition: none;
     transform: none;
 }
@@ -62,68 +60,62 @@ main article ol li {
 }
 
 .apps-metadata h2 {
-    background-color: rgb(196, 220, 247);
     font-size: 1.5em;
-    color: var(--dark-blue-background-color);
     padding: 0.5em;
     border-radius: 0 25em 25em 0;
+    background-color: rgb(196, 220, 247);
+    color: var(--dark-blue-background-color);
 }
 
-/******************************/
-/* Achtegronden van de cirkel */
-/******************************/
 /***********************/
 /* Achtergrond Cirkels */
 /***********************/
-
 .circle-gradients figure {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
     border-radius: 50%;
     position: absolute;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
 }
 
-
-
 .circle-1 {
-    height: 250px;
-    width: 250px;
     top: -10em;
     left: -10em;
     z-index: -1;
+    width: 250px;
+    height: 250px;
 }
 
 .circle-2 {
+    z-index: -1;
+    left: -20em;
     height: 400px;
     width: 400px;
-    left: -20em;
-    z-index: -1;
     transform: translateY(10em);
 }
 
 .circle-3 {
     z-index: 1;
-    height: 450px;
     width: 450px;
     right: -30em;
+    height: 450px;
     transform: translateY(50em);
     /* background-image: url(../images/me-right-sider.png);
-    background-repeat: no-repeat; */
+	background-repeat: no-repeat;
+	*/
 }
 
 .circle-3 img {
-    max-width: 55%;
     width: 50%;
     height: auto;
+    max-width: 55%;
 }
-
 
 .circle-4 {
     z-index: -1;
-    height: 350px;
+     right: -5em;
     width: 350px;
     bottom: -85em;
-    right: -5em;
+    height: 350px;
 }
 
 .circle-5 {
@@ -132,8 +124,6 @@ main article ol li {
     bottom: -65em;
     left: 50em;
 }
-
-
 
 .circle-code-pic figure {
     object-fit: contain;
@@ -164,8 +154,6 @@ main article ol li {
     z-index: 1;
 }
 
-
-
 /******************/
 /* Eerste section */
 /* Titels */
@@ -176,24 +164,19 @@ section:first-of-type {
 }
 
 /*********************/
-/* Tweede section:  
-  Mobiele applicaties */
+/* Tweede section:Mobiele applicaties */
 /*********************/
-
 main section:nth-of-type(2) {
     gap: 3em;
     flex-direction: column;
 }
 
-
 main:nth-of-type(2) a:first-child {
     text-align: center;
 }
 
-
 main section:nth-of-type(2) nav ul a:nth-of-type(2) {
     transform: translateY(5em);
-
 }
 
 main section:nth-of-type(2) article a:nth-of-type(3) {
@@ -201,8 +184,6 @@ main section:nth-of-type(2) article a:nth-of-type(3) {
 }
 
 main section:nth-of-type(2) article {
-
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,10 +202,7 @@ main section:nth-of-type(2) article img {
 /* dit is de vormgeving titel */
 .titel {
     padding: 1em;
-    font-family: 'lato',
-        'dosis',
-        ' arial',
-        sans-serif;
+    font-family: 'lato', 'dosis', ' arial', sans-serif;
     font-weight: bold;
     color: var(--dark-blue-background-color);
     background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
@@ -245,12 +223,10 @@ img[alt="piggy spaarpot"] {
 }
 
 /* Responsive design */
-
 /*****************/
 /* Derde section */
 /* Drawing reference app */
 /*****************/
-
 main section:nth-of-type(3) h1 {
     padding: 1em;
     text-align: center;
@@ -261,11 +237,9 @@ main section:nth-of-type(3) figure ul {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
-
 }
 
 main section:nth-of-type(3) figure ul img {
-
     width: 100%;
     height: auto;
 }
@@ -276,13 +250,12 @@ main section:nth-of-type(3) figure ul p {
 }
 
 main section:nth-of-type(3) .hide {
-    display: none;
+    display: block;
 }
 
 main section:nth-of-type(3) .hidden-info {
     display: none;
 }
-
 
 /******************/
 /* Vierde section */
@@ -291,10 +264,8 @@ main section:nth-of-type(3) .hidden-info {
 main section:nth-of-type(4) figure img {
     width: 100%;
     height: auto;
-
     border: 0.5em solid var(--light-blue-background-color);
     border-radius: 2em;
-
 }
 
 main section:nth-of-type(4) ul {
@@ -309,8 +280,6 @@ main section:nth-of-type(4) a {
 /* Vijfde section */
 /* Iteraties */
 /******************/
-
-
 main section:nth-of-type(5) .image-list {
     display: flex;
     flex-flow: column;
@@ -330,51 +299,43 @@ main section:nth-of-type(5) li {
     list-style-type: inherit;
 }
 
+.list-style li {
+    list-style: disc;
+}
+
 @media (min-width: 68em) {
+
     /******************/
     /* Eerste section */
     /******************/
-
     /********************************/
     /* Hier komt een quote te staan */
     /********************************/
-
     main section:first-of-type {
-
         margin: 0 10em;
         text-align: center;
     }
 
     /* Mijn visie */
-
     main section:first-of-type h1 {
-
         color: var(--light-blue-background-color);
         margin-bottom: .3em;
-        font-family: 'lato',
-            'dosis',
-            ' arial',
-            sans-serif;
+        font-family: 'lato', 'dosis', ' arial', sans-serif;
         font-weight: 700;
         font-size: 3em;
     }
-
 
     /* de visie tekst */
     main section:first-of-type p {
         color: var(--bodytekst-color);
         line-height: 1.5em;
         font-size: 2em;
-
     }
-
 
     /***************************************************/
     /* Tweede section: De vormgeving van de smartphone */
     /***************************************************/
-
     main section:nth-of-type(2) {
-
         position: relative;
         display: flex;
         flex-direction: column;
@@ -402,17 +363,11 @@ main section:nth-of-type(5) li {
         display: flex;
         flex-direction: row;
         color: var(--bodytekst-color);
-
     }
-
 
     main section:nth-of-type(2) article a:nth-of-type(1) {
         display: none;
     }
-
-
-
-
 
     main section:nth-of-type(2) article a:nth-of-type(2) {
         margin: auto 0;
@@ -436,8 +391,6 @@ main section:nth-of-type(5) li {
         position: absolute;
         top: -2em;
         background: none;
-
-
     }
 
     .titel span {
@@ -485,7 +438,6 @@ main section:nth-of-type(5) li {
         line-height: 1.5em;
     }
 
-
     main section:nth-of-type(2) article li {
         color: var(--bodytekst-color);
         line-height: 1.5em;
@@ -507,8 +459,6 @@ main section:nth-of-type(5) li {
         font-size: 1.1em;
         padding: 1.2em;
     }
-
-
 
     /********************************/
     /* Section 3: Responsive Design */
@@ -534,17 +484,12 @@ main section:nth-of-type(5) li {
         line-height: 1.5em;
     }
 
-
-
     main section:nth-of-type(3) .hide {
         display: none;
     }
 
-
-
     main section:nth-of-type(3) .hidden-info {
         display: block;
-
     }
 
     main section:nth-of-type(3) .hidden-info figure img {
@@ -557,16 +502,13 @@ main section:nth-of-type(5) li {
         display: flex;
         flex-direction: column;
         position: absolute;
-
     }
 
     main section:nth-of-type(3) figure ul {
         display: flex;
         flex-direction: row;
         gap: 2em;
-
     }
-
 
     section:nth-of-type(3) figure img {
         max-width: 50%;
@@ -576,7 +518,6 @@ main section:nth-of-type(5) li {
 
     section:nth-of-type(3) figcaption,
     section:nth-of-type(4) figcaption {
-
         padding: 2em;
     }
 
@@ -584,35 +525,14 @@ main section:nth-of-type(5) li {
         transform: scale(1.2);
     }
 
-
-
     section:nth-of-type(3) article .apps-metadata ul {
         margin: 1em 0;
     }
-
 
     section:nth-of-type(3) article h3 {
         color: var(--dark-blue-background-color);
         margin: 1em 0 0.5em 0;
     }
-
-
-
-    @media (min-width: 110em) {
-        section:nth-of-type(3) {
-            margin-bottom: 8em;
-        }
-
-        section:nth-of-type(3) article {
-            margin: 0 50em;
-            width: 50%;
-            line-height: 1.5em;
-        }
-
-    }
-
-
-
 
     /******************************/
     /* Section 4: Wattpad namaken */
@@ -629,12 +549,10 @@ main section:nth-of-type(5) li {
     }
 
     section:nth-of-type(4) a {
-
         font-weight: bold;
         padding: 0.9em;
         font-size: 1.2em;
     }
-
 
     section:nth-of-type(4) article {
         margin: 0 40em;
@@ -645,32 +563,24 @@ main section:nth-of-type(5) li {
 
     section:nth-of-type(4) figure {
         display: flex;
-
         flex-direction: column;
         position: absolute;
-
     }
 
     section:nth-of-type(4) figure img {
-
         max-width: 50%;
         padding-bottom: 0;
         transition: 1s;
         margin-top: 45em;
-
     }
-
 
     section:nth-of-type(4) figure img:hover {
         transform: scale(1.2);
     }
 
-
-
     section:nth-of-type(4) article .apps-metadata ul {
         margin: 1em 0;
     }
-
 
     section:nth-of-type(4) article h3 {
         color: var(--dark-blue-background-color);
@@ -681,48 +591,32 @@ main section:nth-of-type(5) li {
         margin-bottom: 2em;
     }
 
-
-    @media (min-width: 110em) {
-        section:nth-of-type(4) img:first-of-type {
-            margin-top: 3em;
-        }
-
-        section:nth-of-type(4) article {
-            margin: 0 50em;
-            margin-top: 2em;
-            width: 50%;
-            line-height: 1.5em;
-        }
-
-    }
-
     /************************/
     /* Section 5: Iteraties */
     /************************/
     section:nth-of-type(5) article .image-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
         /* display: flex;
-        flex-direction: row; */
+		flex-direction: row;
+		*/
         justify-content: center;
         position: relative;
         gap: 1em;
     }
 
-
+    section:nth-of-type(5) p {
+        margin-right: 35em ;
+    }
     /***********************/
     /* Achtergrond Cirkels */
     /***********************/
-
     .circle-gradients figure {
         background: rgb(2, 0, 36);
         background: linear-gradient(162deg, rgba(2, 0, 36, 1) 0%, rgba(193, 200, 234, 1) 0%, rgb(95, 186, 234) 100%);
         border-radius: 50%;
         position: absolute;
     }
-
-
 
     .circle-1 {
         height: 250px;
@@ -747,7 +641,8 @@ main section:nth-of-type(5) li {
         right: -10em;
         transform: translateY(62em);
         /* background-image: url(../images/me-right-sider.png);
-    background-repeat: no-repeat; */
+		background-repeat: no-repeat;
+		*/
     }
 
     .circle-3 img {
@@ -755,7 +650,6 @@ main section:nth-of-type(5) li {
         width: 50%;
         height: auto;
     }
-
 
     .circle-4 {
         height: 350px;
@@ -770,8 +664,6 @@ main section:nth-of-type(5) li {
         bottom: -100em;
         left: 55em;
     }
-
-
 
     .circle-code-pic figure {
         object-fit: contain;
@@ -799,5 +691,28 @@ main section:nth-of-type(5) li {
         right: -4em;
         transform: translateY(19em);
         z-index: 1;
+    }
+}
+
+@media (min-width: 110em) {
+    section:nth-of-type(3) {
+        margin-bottom: 8em;
+    }
+
+    section:nth-of-type(3) article {
+        margin: 0 50em;
+        width: 50%;
+        line-height: 1.5em;
+    }
+
+    section:nth-of-type(4) article {
+        margin: 0 50em;
+        margin-top: 2em;
+        width: 50%;
+        line-height: 1.5em;
+    }
+
+    section:nth-of-type(4) figure img {
+        margin-top: 50em;
     }
 }
